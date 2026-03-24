@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <circle cx="100" cy="100" r="98" fill="#e5e3df" stroke="#0a0a0a" stroke-width="3"/>
+  <text x="100" y="105" text-anchor="middle" fill="#5c5c5c" font-family="system-ui,sans-serif" font-size="11" letter-spacing="0.08em">PROFILE</text>
+  <text x="100" y="125" text-anchor="middle" fill="#888" font-family="system-ui,sans-serif" font-size="9">public/profile.png</text>
+</svg>

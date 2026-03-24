@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" width="900" height="675">
+  <rect width="900" height="675" fill="#e8e6e1"/>
+  <rect x="2" y="2" width="896" height="671" fill="none" stroke="#0a0a0a" stroke-width="2" stroke-dasharray="8 6" opacity="0.35"/>
+  <text x="450" y="330" text-anchor="middle" fill="#5c5c5c" font-family="system-ui,sans-serif" font-size="18" letter-spacing="0.12em">IMAGE PLACEHOLDER</text>
+  <text x="450" y="360" text-anchor="middle" fill="#888" font-family="system-ui,sans-serif" font-size="12">Add JPG/PNG under public/ and update site.json</text>
+</svg>

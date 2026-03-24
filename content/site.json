@@ -1,0 +1,124 @@
+{
+  "name": "Suvan Sharma",
+  "title": "Syosset High School, Class of 2027",
+  "tagline": "Bridging the gap between human logic and machine intelligence, one line of code at a time.",
+  "intro": "Welcome to my corner of the web. Explore my work, interests, and an AI-powered assistant that knows my story.",
+  "bio": "I am a student at Syosset High School (Class of 2027) with a deep-seated passion for leveraging computer science and robotics to solve real-world challenges. My technical foundation is rooted in high-level academic performance, including a 1540 SAT and a 94.5 GPA, alongside rigorous STEM coursework in AP Computer Science and Physics.",
+  "aboutImages": [
+    {
+      "src": "/pictures/about/profile.png",
+      "alt": "Suvan Sharma"
+    }
+  ],
+  "skills": ["Mobile App Development (Full-Stack)", "Artificial Intelligence Integration", "Advanced Quantitative & STEM Aptitude", "Civic Leadership & Project Management"],
+  "projects": [
+    {
+      "title": "NextStep: Life Unblocked (Mobile Application)",
+      "Role": "Lead Developer and Designer",
+      "description": "A cross-platform mobile application built using Flutter designed to assist teenagers, particularly those transitioning out of juvenile programs, in developing essential life skills.",
+      "link": "https://github.com/Suvan-Sharma/NextStep-Life-Unblocked",
+      "tech": ["Flutter", "Gemini AI", "Dart"],
+      "images": [
+        {
+          "src": "/pictures/projects/NextStep.jpg",
+          "alt": "Next Step: Life Unblocked"
+        },
+        {
+          "src": "/pictures/projects/NextStep_Screens.jpg",
+          "alt": "Next Step App : Key Features"
+        }
+      ]
+    },
+    {
+      "title": "Serious Games AI",
+      "description": "This project aims to develop a high-fidelity Python framework to simulate and analyze the deployment of Self-Driving Ambulances (SDAs). By combining Game-Theoretic Modeling with Machine Learning, the framework will evaluate how autonomous routing affects patient outcomes, urban traffic flow, and moral decision-making in emergency scenarios.",
+      "link": "https://bwsi.mit.edu/bwsi-programs-2/serious-games-development-with-artificial-intelligence",
+      "tech": ["Python 3.x", "SUMO Simulation", "Machine Learning/RL", "Graph Neural Networks"],
+      "images": [
+        {
+          "src": "/pictures/projects/MIT_PROJECT.png",
+          "alt": "MIT Project: Serious Games AI"
+        },
+        {
+          "src": "/pictures/projects/MIT_PROJECT_Certificate.png",
+          "alt": "MIT Project: Serious Games AI Certificate"
+        }
+      ]
+    }
+  ],
+  "hobbies": [
+    {
+      "title": "Building Community Resilience",
+      "description": "Beyond the classroom and the concert hall, I am deeply committed to building resilient and compassionate communities.As a long-term volunteer with the Sri Sathya Sai Center, I lead and participate in multifaceted service drives aimed at supporting underserved individuals in the New York area:\n<b>Food Security:</b> I prepare and coordinate weekly meal deliveries, ensuring reliable access to nourishment for those facing food insecurity.\n<b>Juvenile Advocacy:</b> Recognizing the unique challenges faced by youth in the justice system, I have organized collections of over 100 sets of clothing for juvenile centers.\n<b>Supporting Transitions:</b> I personally manage the collection and donation of suitcases for young adults (ages 18–21) transitioning out of state care, providing them with a sense of dignity and stability during a critical life relocation.\n<b>Seasonal Relief:</b> To combat the harsh New York winters, I assemble and distribute hygiene and winter kits (containing blankets, gloves, and essential care items) and organize holiday toy drives for children in underserved communities.",
+      "images": [
+        {
+          "src": "/pictures/hobbies/Voluntering_Food_Distribution.jpg",
+          "alt": "Food Distribution at Juvenile Center"
+        },
+        {
+          "src": "/pictures/hobbies/Voluntering_Team.jpg",
+          "alt": "Voluntering Team at Food Distribution"
+        },
+        {
+          "src": "/pictures/hobbies/Book_Donation.png",
+          "alt": "Book Donation Drive"
+        }
+      ]
+    },
+    {
+      "title": "Music : Piano and Viola",
+      "description": "Music has always been more than just a hobby for me; it’s where I learned the value of discipline and the art of perspective. Reaching NYSSMA Level 6 in Piano was my masterclass in technical precision—spending years deconstructing complex scores and refining the 'soloist’s' mindset to perform at the highest pre-college level.\n\nBut my five years with the Viola taught me something different. As a violist, you aren't always the melody; you are the harmonic 'glue' that holds an orchestra together. This dual training has given me a unique 'ambidextrous' musicality: the ability to lead as a soloist and the intuition to listen and support as part of an ensemble.",
+      "images": [
+        {
+          "src": "/pictures/hobbies/NYSSMA_Piano.png",
+          "alt": "NYSSMA Piano Level 6 Certificate"
+        }
+      ]
+    }
+  ],
+  "passionProjects": [
+    {
+      "title": "DECCA: Achieving the 'Thrive Level'",
+      "description": "I played an active role in Syosset DECA’s 2025-2026 campaign, which earned Thrive Level Recognition (one of only ~1,200 chapters globally to do so).\nMy DECA experience is the bridge between my technical interests (like machine learning) and my social goals. It has taught me that a great idea—whether a tactical routing algorithm or a community food drive—only succeeds when it is backed by a sound strategy, clear communication, and a strong organizational foundation.",
+      "images": [
+        {
+          "src": "/pictures/hobbies/Book_Donation.png",
+          "alt": "DECCA: Thrive Level Recognition"
+        }
+      ]
+    },
+    {
+      "title": "STEM Classes: Mentoring and Teaching",
+      "description": "I believe that the true test of understanding a complex system is the ability to teach it to others. As a STEM mentor, I am dedicated to demystifying technology and inspiring my peers and younger students to explore the intersections of logic, coding, and social impact.\n\nMy teaching philosophy centers on \"Learning by Doing.\" Whether I am explaining algorithmic logic or the physics of fluid dynamics, I focus on real-world applications to keep students engaged.",
+      "images": [
+        {
+          "src": "/pictures/hobbies/STEM_Classes.png",
+          "alt": "STEM Classes: Mentoring and Teaching"
+        },
+        {
+          "src": "/pictures/hobbies/SportsClub.png",
+          "alt": "Sports Club: Mentoring and Teaching"
+        }
+      ]
+    }
+  ],
+  "social": {
+    "email": "suvansharma009@gmail.com",
+    "website": "https://suvansharma.com",
+    "location": "Syosset, NY",
+    "linkedin": "https://www.linkedin.com/in/suvansharma/",
+    "github": "https://github.com/suvansharma009"
+  },
+  "aiAlterEgo": {
+    "name": "Digital You",
+    "description": "Ask questions about my background, projects, and interests. Answers are based on the information on this site."
+  },
+  "heroImage": {
+    "src": "/placeholders/hero.svg",
+    "alt": "Hero banner placeholder — replace with public/hero.jpg or any path under public/"
+  },
+  "avatar": {
+    "src": "/profile.png",
+    "alt": "Suvan Sharma"
+  }
+}
