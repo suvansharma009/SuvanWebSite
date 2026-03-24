@@ -35,19 +35,11 @@ export default function HomePage() {
 
   return (
     <div className="relative min-h-screen">
-      <section className="relative min-h-[220px] w-full md:min-h-[280px]">
-        <div className="absolute inset-0">
-          <Image
-            src={site.heroImage.src}
-            alt={site.heroImage.alt}
-            fill
-            priority
-            className="object-cover object-center"
-            sizes="100vw"
-          />
-          <div className="absolute inset-0 bg-black/35" aria-hidden />
-        </div>
-        <div className="relative z-10 flex items-start justify-between px-4 pt-4 text-white md:px-8 md:pt-6">
+      <section
+        className="relative min-h-[120px] w-full bg-gradient-to-br from-[#3d3b39] via-[#2c2a28] to-[#1a1918] md:min-h-[140px]"
+        aria-label="Hero"
+      >
+        <div className="relative z-10 flex items-start justify-between px-4 pt-2 text-white/95 md:px-6 md:pt-2">
           <Link
             href="#main"
             className="rounded p-1 opacity-90 transition hover:opacity-100"

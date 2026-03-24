@@ -54,10 +54,6 @@ export type SiteContent = {
     name: string;
     description: string;
   };
-  heroImage: {
-    src: string;
-    alt: string;
-  };
   avatar: {
     src: string;
     alt: string;

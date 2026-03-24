@@ -113,10 +113,6 @@
     "name": "Digital You",
     "description": "Ask questions about my background, projects, and interests. Answers are based on the information on this site."
   },
-  "heroImage": {
-    "src": "/placeholders/hero.svg",
-    "alt": "Hero banner placeholder — replace with public/hero.jpg or any path under public/"
-  },
   "avatar": {
     "src": "/profile.png",
     "alt": "Suvan Sharma"
