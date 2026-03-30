@@ -30,10 +30,9 @@
       ]
     },
     {
-      "title": "Serious Games AI",
-      "description": "This project aims to develop a high-fidelity Python framework to simulate and analyze the deployment of Self-Driving Ambulances (SDAs). By combining Game-Theoretic Modeling with Machine Learning, the framework will evaluate how autonomous routing affects patient outcomes, urban traffic flow, and moral decision-making in emergency scenarios.",
-      "link": "https://bwsi.mit.edu/bwsi-programs-2/serious-games-development-with-artificial-intelligence",
-      "tech": ["Python 3.x", "SUMO Simulation", "Machine Learning/RL", "Graph Neural Networks"],
+      "title": "BWSI - Serious Game Development with AI",
+      "description": "This project aims to develop a high-fidelity Python framework to simulate and research Human-AI Teamwork and Trust. By combining Game Design Philosphies with Machine Learning, we developed a Serious Game to aid research in how humans and artifical intellegence can collaborate to achieve a common goal.",
+      "tech": ["Python 3.x", "Pytorch for Machine Learning/RL", "Tkinter for Game UI"],
       "images": [
         {
           "src": "/pictures/projects/MIT_PROJECT.png",
@@ -49,7 +48,7 @@
   "hobbies": [
     {
       "title": "Building Community Resilience",
-      "description": "Beyond the classroom and the concert hall, I am deeply committed to building resilient and compassionate communities.As a long-term volunteer with the Sri Sathya Sai Center, I lead and participate in multifaceted service drives aimed at supporting underserved individuals in the New York area:\n<b>Food Security:</b> I prepare and coordinate weekly meal deliveries, ensuring reliable access to nourishment for those facing food insecurity.\n<b>Juvenile Advocacy:</b> Recognizing the unique challenges faced by youth in the justice system, I have organized collections of over 100 sets of clothing for juvenile centers.\n<b>Supporting Transitions:</b> I personally manage the collection and donation of suitcases for young adults (ages 18–21) transitioning out of state care, providing them with a sense of dignity and stability during a critical life relocation.\n<b>Seasonal Relief:</b> To combat the harsh New York winters, I assemble and distribute hygiene and winter kits (containing blankets, gloves, and essential care items) and organize holiday toy drives for children in underserved communities.",
+      "description": "Beyond the classroom and the concert hall, I am deeply committed to building resilient and compassionate communities. As a long-term volunteer with the Sri Sathya Sai Center, I lead and participate in multifaceted service drives aimed at supporting underserved individuals in the New York area:\n<b>Food Security:</b> I prepare and coordinate weekly meal deliveries, ensuring reliable access to nourishment for those facing food insecurity.\n<b>Juvenile Advocacy:</b> Recognizing the unique challenges faced by youth in the justice system, I have organized collections of over 100 sets of clothing for juvenile centers.\n<b>Supporting Transitions:</b> I personally manage the collection and donation of suitcases for young adults (ages 18–21) transitioning out of state care, providing them with a sense of dignity and stability during a critical life relocation.\n<b>Seasonal Relief:</b> To combat the harsh New York winters, I assemble and distribute hygiene and winter kits (containing blankets, gloves, and essential care items) and organize holiday toy drives for children in underserved communities.",
       "images": [
         {
           "src": "/pictures/hobbies/Voluntering_Food_Distribution.jpg",
@@ -78,12 +77,12 @@
   ],
   "passionProjects": [
     {
-      "title": "DECCA: Achieving the 'Thrive Level'",
-      "description": "I played an active role in Syosset DECA’s 2025-2026 campaign, which earned Thrive Level Recognition (one of only ~1,200 chapters globally to do so).\nMy DECA experience is the bridge between my technical interests (like machine learning) and my social goals. It has taught me that a great idea—whether a tactical routing algorithm or a community food drive—only succeeds when it is backed by a sound strategy, clear communication, and a strong organizational foundation.",
+      "title": "DECA: Regional and State Championships",
+      "description": "I qualified for Regional and State Championships in DECA, and was recognized as one of the top 1,200 chapters globally to do so.",
       "images": [
         {
           "src": "/pictures/hobbies/Book_Donation.png",
-          "alt": "DECCA: Thrive Level Recognition"
+          "alt": "DECA: Thrive Level Recognition"
         }
       ]
     },
