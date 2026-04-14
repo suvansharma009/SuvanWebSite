@@ -41,31 +41,42 @@
         {
           "src": "/pictures/projects/MIT_PROJECT_Certificate.png",
           "alt": "MIT BWSI certificate"
+        },
+        {
+          "src": "/pictures/projects/MIT_Certificate_2.jpg",
+          "alt": "MIT Course Certificate"
         }
       ]
     },
     {
       "title": "NextStep App",
       "Role": "Developer & designer",
-      "description": "A Flutter/Dart mobile app focused on teen mental health support and resources. Designed UI/UX, navigation, and backend logic, with features to guide users toward helpful resources and solutions. Code: https://github.com/Suvan-Sharma/NextStep-Life-Unblocked",
+      "description": "A Flutter/Dart mobile app focused on teen mental health support and resources. Designed UI/UX, navigation, and backend logic, with features to guide users toward helpful resources and solutions. \n\nCode: <a ref=https://github.com/Suvan-Sharma/NextStep-Life-Unblocked> NextStep-Life-Unblocked </a>",
       "link": "https://www.youtube.com/watch?v=bgGIU7oZCU0",
       "tech": ["Flutter", "Dart"],
       "images": [
         {
-          "src": "/pictures/projects/NextStep.jpg",
+          "src": "/pictures/projects/NextStep_new.jpg",
           "alt": "NextStep app"
         },
         {
-          "src": "/pictures/projects/NextStep_Screens.jpg",
+          "src": "/pictures/projects/NextStep_Screens_new.jpg",
           "alt": "NextStep app screens"
         }
       ]
     },
     {
       "title": "Divergent Team Hackathon — 2nd Place, State Winner",
-      "description": "State-level hackathon recognition as part of Divergent Team (project details and repo link to be added).",
-      "link": "",
-      "tech": ["Hackathon", "Team collaboration"]
+      "description": "<b>Divergent Hackathons 2025–26</b> are youth-driven, project-based events that empower high school students to take on real-world challenges in STEM, creativity, and leadership. Hosted at Microsoft facilities across 15 cities, these hackathons unite students, mentors, and community leaders through internships, coaching, and a youth-led execution model. With 100 students per city and a National Championship in Washington, D.C. (June 2026), Divergent Hackathons inspire innovation, teamwork, and community impact on a national scale.",
+      "link": "https://divergentteams.org/newyork-hackathon/",
+      "tech": ["Hackathon", "Team collaboration", "Health and Wellness"],
+      "images": [
+        {
+          "src": "/pictures/projects/Suvan_Microsoft.jpg",
+          "alt": "Divergent Hackathons 2025–26 - NYC (Microsoft Office)"
+        }
+      ]
+
     },
     {
       "title": "Science Research Projects",
@@ -76,19 +87,25 @@
     {
       "title": "STEM Coach — Long Island Tutoring Academy",
       "description": "Taught coding and STEM concepts to 20+ students. Delivered 100+ hours of instruction using Scratch and robotics. Helped students build interactive games and strengthen problem-solving skills.",
-      "link": "",
+      "link": "https://litutoring.org/tutoring",
       "tech": ["Scratch", "Robotics", "STEM education"],
       "images": [
         {
           "src": "/pictures/hobbies/STEM_Classes.png",
-          "alt": "STEM coaching"
+          "alt": "STEM Classes Fall 2024"
         }
       ]
     },
     {
       "title": "Junior Firefighter Training Program",
       "description": "Trained in emergency response and safety procedures. Developed teamwork, discipline, and leadership under pressure.",
-      "link": "",
+      "link": "https://www.facebook.com/www.Syossetfd.org/",
+      "images": [
+	    {
+	        "src": "/pictures/projects/SyossetFireFighters.jpg",
+	        "alt": "STEM Classes Fall 2024"
+	    }
+      ],
       "tech": ["Emergency response", "Leadership"]
     }
   ],
@@ -120,7 +137,7 @@
       "description": "Through varsity track, competitive swimming, and tennis, I have built resilience, time management, and a strong work ethic. I enjoy pushing my limits and improving performance.",
       "images": [
         {
-          "src": "/pictures/hobbies/SportsClub.png",
+          "src": "/pictures/hobbies/SportsClub.jpg",
           "alt": "Athletics"
         }
       ]
@@ -152,6 +169,18 @@
         {
           "src": "/pictures/hobbies/Book_Donation.png",
           "alt": "Book donation drive"
+        },
+        {
+		    "src": "/pictures/hobbies/Suvan_Food_Donation.jpg",
+		    "alt": "Food donation drive"
+        },
+        {
+				    "src": "/pictures/hobbies/SS_cultural_performance.jpg",
+				    "alt": "Satya Sai Performance"
+        },
+        {
+				    "src": "/pictures/hobbies/Suvan_Sharma_Sai_performance.jpg",
+				    "alt": "Cultural Performance"
         }
       ]
     },
@@ -160,7 +189,7 @@
       "description": "Mentored younger students in academics and foundational STEM through structured tutoring, focusing on confidence and skill building.\n\nPresidential Volunteer Service Award (Gold) — recognized for sustained educational mentorship and impact.",
       "images": [
         {
-          "src": "/pictures/hobbies/STEM_Classes.png",
+          "src": "/pictures/hobbies/Cultural_Program.jpg",
           "alt": "Youth mentorship and STEM"
         }
       ]
@@ -170,7 +199,7 @@
       "description": "Volunteered with Shyog School for special-needs children, supporting inclusive learning and students who need additional developmental support.\n\nCurrently developing an early-detection app focused on ADHD and brain development, aimed at earlier identification and better developmental outcomes.",
       "images": [
         {
-          "src": "/pictures/hobbies/Book_Donation.png",
+          "src": "/pictures/hobbies/Sahyog_Students.jpg",
           "alt": "Community and education impact"
         }
       ]
@@ -178,9 +207,9 @@
   ],
   "social": {
     "email": "suvansharma009@gmail.com",
-    "website": "https://suvansharma.com",
-    "location": "https://www.google.com/maps/search/Syosset%2C+NY",
-    "linkedin": "https://www.linkedin.com/in/suvansharma/",
+    "website": "https://www.linkedin.com/in/suvan-sharma-92171835a/",
+    "location": "https://maps.app.goo.gl/EpdNs9a1aPVyEsJg8",
+    "linkedin": "https://www.linkedin.com/in/suvan-sharma-92171835a/",
     "github": "https://github.com/suvansharma009"
   },
   "aiAlterEgo": {
