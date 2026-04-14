@@ -32,13 +32,31 @@ function IconMenu() {
 
 export default function HomePage() {
   const site = getSiteContent();
+  const hero = site.heroImage ?? {
+    src: "/hero.jpg",
+    alt: "City skyline hero background",
+  };
 
   return (
     <div className="relative min-h-screen">
       <section
-        className="relative min-h-[120px] w-full bg-gradient-to-br from-[#3d3b39] via-[#2c2a28] to-[#1a1918] md:min-h-[140px]"
+        className="relative min-h-[220px] w-full overflow-hidden bg-[#1a1918] md:min-h-[260px]"
         aria-label="Hero"
       >
+        <div className="pointer-events-none absolute inset-0 z-0">
+          <Image
+            src={hero.src}
+            alt={hero.alt}
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover object-center"
+          />
+        </div>
+        <div
+          className="pointer-events-none absolute inset-0 z-[1] bg-gradient-to-b from-[#1a1918]/75 via-[#2c2a28]/45 to-[#1a1918]/88"
+          aria-hidden
+        />
         <div className="relative z-10 flex items-start justify-between px-4 pt-2 text-white/95 md:px-6 md:pt-2">
           <Link
             href="#main"

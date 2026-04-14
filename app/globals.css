@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@source "../lib";
+
 @theme {
   --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
   --color-paper: #f4f2ee;
@@ -28,4 +30,15 @@ body {
 :focus-visible {
   outline: 2px solid var(--color-ink);
   outline-offset: 2px;
+}
+
+@layer components {
+  .section-subheading {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: var(--color-ink);
+  }
 }

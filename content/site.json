@@ -190,5 +190,9 @@
   "avatar": {
     "src": "/profile.png",
     "alt": "Suvan Sharma"
+  },
+  "heroImage": {
+    "src": "/hero.jpg",
+    "alt": "City skyline hero background"
   }
 }

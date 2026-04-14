@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import type { PassionComment } from "@/lib/passion-comments";
+import { sectionSubheadingClassName } from "@/lib/typography";
 
 const LOCAL_KEY = "suvan_passion_comments_local_v1";
 
@@ -121,7 +122,7 @@ export function PassionComments() {
 
   return (
     <section className="mt-14 border-t border-[var(--color-paper-dark)] pt-10" aria-labelledby="comments-heading">
-      <h2 id="comments-heading" className="text-lg font-medium tracking-wide text-[var(--color-ink)] uppercase">
+      <h2 id="comments-heading" className={sectionSubheadingClassName}>
         Comments
       </h2>
       <p className="mt-2 text-sm text-[var(--color-muted)]">
@@ -177,7 +178,11 @@ export function PassionComments() {
       ) : null}
 
       <div className="mt-8">
-        <h3 className="text-xs font-medium tracking-[0.2em] text-[var(--color-muted)] uppercase">Recent</h3>
+        <h3
+          className={`${sectionSubheadingClassName} text-[var(--color-muted)]`}
+        >
+          Recent
+        </h3>
         {loading ? (
           <p className="mt-4 text-sm text-[var(--color-muted)]">Loading…</p>
         ) : merged.length === 0 ? (

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { ContentImageGallery } from "@/components/ContentImageGallery";
 import { PageScaffold } from "@/components/PageScaffold";
 import { getSiteContent } from "@/lib/site";
+import { sectionSubheadingClassName } from "@/lib/typography";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -18,9 +19,7 @@ export default function HobbiesPage() {
       <ul className="space-y-6">
         {site.hobbies.map((h) => (
           <li key={h.title}>
-            <h2 className="text-lg font-medium tracking-wide text-[var(--color-ink)] uppercase">
-              {h.title}
-            </h2>
+            <h2 className={sectionSubheadingClassName}>{h.title}</h2>
             <p className="mt-2">{h.description}</p>
             <ContentImageGallery images={h.images ?? []} className="mt-4" />
           </li>

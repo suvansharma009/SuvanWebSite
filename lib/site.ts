@@ -58,6 +58,8 @@ export type SiteContent = {
     src: string;
     alt: string;
   };
+  /** Full-width home hero behind the avatar (`public/` path, e.g. `/hero.jpg`). */
+  heroImage?: GalleryImage;
 };
 
 export function getSiteContent(): SiteContent {
