@@ -51,23 +51,24 @@
     {
       "title": "NextStep App",
       "Role": "Developer & designer",
-      "description": "A Flutter/Dart mobile app focused on teen mental health support and resources. Designed UI/UX, navigation, and backend logic, with features to guide users toward helpful resources and solutions. \n\nCode: <a ref=https://github.com/Suvan-Sharma/NextStep-Life-Unblocked> NextStep-Life-Unblocked </a>",
+      "description": "A Flutter/Dart mobile app focused on teen mental health support and resources. Designed UI/UX, navigation, and backend logic, with features to guide users toward helpful resources and solutions.",
       "link": "https://www.youtube.com/watch?v=bgGIU7oZCU0",
+      "Link" : "https://github.com/Suvan-Sharma/NextStep-Life-Unblocked",
       "tech": ["Flutter", "Dart"],
       "images": [
         {
-          "src": "/pictures/projects/NextStep_new.jpg",
-          "alt": "NextStep app"
+          "src": "/pictures/projects/NextStep.jpg",
+          "alt": "NextStep app : Home and Life Skill"
         },
         {
-          "src": "/pictures/projects/NextStep_Screens_new.jpg",
-          "alt": "NextStep app screens"
+          "src": "/pictures/projects/NextStep_2.jpg",
+          "alt": "NextStep : Smart Buddy and Journal"
         }
       ]
     },
     {
       "title": "Divergent Team Hackathon — 2nd Place, State Winner",
-      "description": "<b>Divergent Hackathons 2025–26</b> are youth-driven, project-based events that empower high school students to take on real-world challenges in STEM, creativity, and leadership. Hosted at Microsoft facilities across 15 cities, these hackathons unite students, mentors, and community leaders through internships, coaching, and a youth-led execution model. With 100 students per city and a National Championship in Washington, D.C. (June 2026), Divergent Hackathons inspire innovation, teamwork, and community impact on a national scale.",
+      "description": "Divergent Hackathons 2025–26 are youth-driven, project-based events that empower high school students to take on real-world challenges in STEM, creativity, and leadership. Hosted at Microsoft facilities across 15 cities, these hackathons unite students, mentors, and community leaders through internships, coaching, and a youth-led execution model. With 100 students per city and a National Championship in Washington, D.C. (June 2026), Divergent Hackathons inspire innovation, teamwork, and community impact on a national scale.",
       "link": "https://divergentteams.org/newyork-hackathon/",
       "tech": ["Hackathon", "Team collaboration", "Health and Wellness"],
       "images": [
