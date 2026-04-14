@@ -1,34 +1,7 @@
 import Image from "next/image";
-import Link from "next/link";
 import { NavButton } from "@/components/NavButton";
 import { ContactFooter } from "@/components/ContactFooter";
 import { getSiteContent, PASSION_PAGE_LABEL } from "@/lib/site";
-
-function IconSearch() {
-  return (
-    <svg aria-hidden className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={1.5}
-        d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
-      />
-    </svg>
-  );
-}
-
-function IconMenu() {
-  return (
-    <svg aria-hidden className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={1.5}
-        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-      />
-    </svg>
-  );
-}
 
 export default function HomePage() {
   const site = getSiteContent();
@@ -57,22 +30,6 @@ export default function HomePage() {
           className="pointer-events-none absolute inset-0 z-[1] bg-gradient-to-b from-[#1a1918]/75 via-[#2c2a28]/45 to-[#1a1918]/88"
           aria-hidden
         />
-        <div className="relative z-10 flex items-start justify-between px-4 pt-2 text-white/95 md:px-6 md:pt-2">
-          <Link
-            href="#main"
-            className="rounded p-1 opacity-90 transition hover:opacity-100"
-            aria-label="Skip to content"
-          >
-            <IconSearch />
-          </Link>
-          <button
-            type="button"
-            className="rounded p-1 opacity-90 transition hover:opacity-100 md:hidden"
-            aria-label="Menu (decorative)"
-          >
-            <IconMenu />
-          </button>
-        </div>
       </section>
 
       <div
