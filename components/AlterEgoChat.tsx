@@ -11,7 +11,6 @@ export function AlterEgoChat({ intro }: { intro: string }) {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [sawDemo, setSawDemo] = useState(false);
   const listRef = useRef<HTMLDivElement>(null);
 
   const scrollToEnd = useCallback(() => {
@@ -51,8 +50,6 @@ export function AlterEgoChat({ intro }: { intro: string }) {
         return;
       }
 
-      if (data.demo) setSawDemo(true);
-
       const reply = data.reply ?? "";
       setMessages((prev) => [...prev, { role: "assistant", content: reply }]);
       scrollToEnd();
@@ -67,16 +64,6 @@ export function AlterEgoChat({ intro }: { intro: string }) {
   return (
     <div className="mt-8 space-y-4">
       <p className="text-sm text-[var(--color-muted)]">{intro}</p>
-      <p className="text-xs text-[var(--color-muted)]">
-        Without <code className="rounded bg-neutral-200 px-1">OPENAI_API_KEY</code>, the server returns
-        short demo replies. Add the key in <code className="rounded bg-neutral-200 px-1">.env.local</code>{" "}
-        for full answers.
-      </p>
-      {sawDemo ? (
-        <p className="text-xs font-medium text-[var(--color-ink)]" role="status">
-          Demo mode is active for this session (no API key on the server).
-        </p>
-      ) : null}
 
       <div
         ref={listRef}
